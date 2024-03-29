@@ -1,0 +1,4 @@
+-- Simple Ban Script for Roblox
+local playerToBan = "PlayerName"  -- Replace PlayerName with the username of the player to ban
+
+game.Players[playerToBan]:Kick("You have been banned from the game.")
