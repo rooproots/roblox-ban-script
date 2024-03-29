@@ -1,0 +1,7 @@
+-- Time-Limited Ban Script for Roblox
+local playerToBan = "PlayerName"  -- Replace PlayerName with the username of the player to ban
+local banDuration = 3600  -- Ban duration in seconds (e.g., 3600 seconds = 1 hour)
+
+game.Players[playerToBan]:Kick("You have been banned for 1 hour.")
+wait(banDuration)
+game.Players[playerToBan]:Kick("Your ban has been lifted.")
